@@ -1,4 +1,4 @@
-import collection from './leaf-collection.jpg';
+import collection from "./leaf-collection.jpg";
 
 // import collection from "./leaf-collection.jpg";
 import collection2 from "./leaf-collection-1.jpg";
@@ -28,6 +28,11 @@ import hero1 from "./Hero/abstract.jpg";
 import hero2 from "./Hero/webb.jpg";
 import hero3 from "./Hero/zak.jpg";
 
+import service1 from "./Service/service1.png";
+import service2 from "./Service/service2.png";
+import service3 from "./Service/service3.png";
+import service4 from "./Service/service4.png";
+
 export default {
     hero1,
     hero2,
@@ -52,4 +57,8 @@ export default {
     profilebg1,
     collection,
     collection2,
+    service1,
+    service2,
+    service3,
+    service4,
 };
