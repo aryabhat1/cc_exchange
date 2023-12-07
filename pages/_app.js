@@ -5,6 +5,7 @@ import "@/styles/globals.css";
 // import Navbar from "../components/ComponentIndex";
 import { Navbar } from "@/components/ComponentIndex";
 import { Footer } from "@/components/ComponentIndex";
+import CC_Slider from "@/components/CC_Slider/CC_Slider";
 
 const App = ({ Component, pageProps }) => (
     <div>

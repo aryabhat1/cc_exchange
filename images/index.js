@@ -33,6 +33,21 @@ import service2 from "./Service/service2.png";
 import service3 from "./Service/service3.png";
 import service4 from "./Service/service4.png";
 
+import nft1 from "./NFT/butterflies.jpg";
+import nft2 from "./NFT/flower2.jpg";
+import nft3 from "./NFT/flower3.jpg";
+import nft4 from "./NFT/flowers1.jpg";
+import nft5 from "./NFT/rose.jpg";
+import nft6 from "./NFT/bird.jpg";
+import nft7 from "./NFT/grass.jpg";
+import nft8 from "./NFT/leaves.jpg";
+import nft9 from "./NFT/leaves-2.jpg";
+import study from "./Subscribe/study.jpg";
+
+import provider1 from "./Wallet/MetaMask.jpg";
+import provider2 from "./Wallet/Trust-Wallet.png";
+import provider3 from "./Wallet/wallet-connect-logo.png";
+
 export default {
     hero1,
     hero2,
@@ -61,4 +76,17 @@ export default {
     service2,
     service3,
     service4,
+    nft1,
+    nft2,
+    nft3,
+    nft4,
+    nft5,
+    nft6,
+    nft7,
+    nft8,
+    nft9,
+    study,
+    provider1,
+    provider2,
+    provider3,
 };
