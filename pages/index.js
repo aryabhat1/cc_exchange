@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 
 // INTERNAL IMPORT
 import style from "../styles/index.module.css";
@@ -8,6 +8,7 @@ import {
     CC_Slider,
     Subscribe,
 } from "@/components/ComponentIndex";
+import { NFTMarketPlaceContext } from "@/Context/NFTMarketPlaceContext";
 
 const Home = () => {
     return (

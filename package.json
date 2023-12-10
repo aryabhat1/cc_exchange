@@ -9,9 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.7.0",
+    "axios": "^1.6.2",
+    "ether": "^0.0.9",
+    "ipfs-http-client": "^60.0.1",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^4.12.0"
+    "react-icons": "^4.12.0",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.2"
   }
 }

@@ -42,7 +42,7 @@ import nft6 from "./NFT/bird.jpg";
 import nft7 from "./NFT/grass.jpg";
 import nft8 from "./NFT/leaves.jpg";
 import nft9 from "./NFT/leaves-2.jpg";
-import study from "./Subscribe/study.jpg";
+import study from "./Subscribe/study-r.png";
 
 import provider1 from "./Wallet/MetaMask.jpg";
 import provider2 from "./Wallet/Trust-Wallet.png";

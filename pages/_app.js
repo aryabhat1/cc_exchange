@@ -6,12 +6,16 @@ import "@/styles/globals.css";
 import { Navbar } from "@/components/ComponentIndex";
 import { Footer } from "@/components/ComponentIndex";
 import CC_Slider from "@/components/CC_Slider/CC_Slider";
+// import { NFTMarketPlaceABI } from "@/Context/constants";
+import { NFTMarketPlaceProvider } from "@/Context/NFTMarketPlaceContext";
 
 const App = ({ Component, pageProps }) => (
     <div>
-        <Navbar />
-        <Component {...pageProps} />
-        <Footer />
+        <NFTMarketPlaceProvider>
+            <Navbar />
+            <Component {...pageProps} />
+            <Footer />
+        </NFTMarketPlaceProvider>
     </div>
 );
 
